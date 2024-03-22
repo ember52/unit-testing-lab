@@ -1,0 +1,23 @@
+{
+  "name": "cloudservertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "ava ./tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^6.1.1",
+    "chai": "^4.3.7",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2",
+    "mongodb-memory-server": "^9.1.7",
+    "mongoose": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "sinon": "^17.0.1"
+  }
+}
